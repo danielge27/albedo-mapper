@@ -1,4 +1,4 @@
-# 🛰️ Boston Area Albedo Mapper
+#  Boston Area Albedo Mapper
 ### *Team Cubeagle — Urban Heat Risk Analysis Tool*
 
 > A low-cost, open-source tool that analyzes **surface reflectivity (albedo)** and **urban heat risk** from satellite imagery — built by high school students in the Boston area to support environmental justice research and city planning.
@@ -10,15 +10,15 @@
 
 ---
 
-## 🌐 Live Website
+##  Live Website
 
 **→ [https://albedo-mapper.onrender.com](https://albedo-mapper.onrender.com)**
 
-> ⚠️ Hosted on Render free tier — may take 1–2 minutes to wake up on first visit.
+>  Hosted on Render free tier — may take 1–2 minutes to wake up on first visit.
 
 ---
 
-## 📸 Demo
+##  Demo
 
 ### Step 1 — Search any Boston-area neighborhood
 
@@ -44,16 +44,16 @@ The tool generates a complete heat risk report with letter grade, policy recomme
 
 ---
 
-## 🎨 Surface Type Key
+##  Surface Type Key
 
 | Color | Surface | Albedo | Heat Risk |
 |-------|---------|--------|-----------|
-| 🔴 Red | Dark Tar Roof | 0.05 | CRITICAL |
-| 🟠 Orange | Asphalt / Road | 0.10 | HIGH |
-| 🟡 Yellow | Concrete / Sidewalk | 0.25 | MEDIUM |
-| 🩵 Cyan | Bright / White Roof | 0.65 | LOW |
-| 🟢 Green | Trees / Vegetation | 0.20 | BENEFICIAL |
-| 🔵 Blue | Water Body | 0.06 | COOLING |
+|  Red | Dark Tar Roof | 0.05 | CRITICAL |
+|  Orange | Asphalt / Road | 0.10 | HIGH |
+|  Yellow | Concrete / Sidewalk | 0.25 | MEDIUM |
+|  Cyan | Bright / White Roof | 0.65 | LOW |
+|  Green | Trees / Vegetation | 0.20 | BENEFICIAL |
+|  Blue | Water Body | 0.06 | COOLING |
 
 ---
 
@@ -84,7 +84,7 @@ Results displayed in browser + downloadable report
 
 ---
 
-## 🏙️ Community Impact
+##  Community Impact
 
 This tool was built to address a critical gap in urban climate data: **hyperlocal, street-level albedo measurements** that expensive satellites cannot provide at neighborhood resolution.
 
@@ -100,7 +100,7 @@ This tool was built to address a critical gap in urban climate data: **hyperloca
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 ```bash
 # Clone the repository
@@ -118,7 +118,7 @@ Open your browser at **http://localhost:5000**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 albedo-mapper/
@@ -144,7 +144,7 @@ albedo-mapper/
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 | Technology | Purpose |
 |---|---|
@@ -158,7 +158,7 @@ albedo-mapper/
 
 ---
 
-## 📊 Research Applications
+##  Research Applications
 
 This tool supports ongoing research into:
 
@@ -170,7 +170,7 @@ This tool supports ongoing research into:
 
 ---
 
-## 🏫 About Team Cubeagle
+##  About Team Cubeagle
 
 This project was developed by **Team Cubeagle**, a group of high school students in the Boston area, as part of the **BWSI (Beaver Works Summer Institute) CubeSat program**. The original concept was an orbital albedo measurement CubeSat — this web app extends that mission to ground-based, hyperlocal neighborhood analysis.
 
@@ -178,13 +178,13 @@ This project was developed by **Team Cubeagle**, a group of high school students
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and share with attribution.
 
 ---
 
-## 🌱 Contributing
+##  Contributing
 
 Pull requests welcome! Areas where help is especially appreciated:
 - Additional surface type detection (green roofs, solar panels, permeable pavement)
@@ -196,7 +196,7 @@ Pull requests welcome! Areas where help is especially appreciated:
 
 <div align="center">
 
-**Built with 🛰️ by Team Cubeagle · Boston, MA**
+**Built by Team Cubeagle · Boston, MA**
 
 [Live App](https://albedo-mapper.onrender.com) · [Report an Issue](https://github.com/danielge27/albedo-mapper/issues) · [GitHub](https://github.com/danielge27/albedo-mapper)
 
