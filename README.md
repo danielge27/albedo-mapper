@@ -24,7 +24,7 @@
 
 Enter any address or neighborhood name. The interactive satellite map loads instantly using ArcGIS World Imagery.
 
-![Search and Map View](docs/screenshots/screenshot1.jpg)
+![Search and Map View](screenshots/screenshot1.jpg)
 
 ---
 
