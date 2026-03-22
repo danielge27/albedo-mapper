@@ -32,7 +32,7 @@ Enter any address or neighborhood name. The interactive satellite map loads inst
 
 Click **Calculate Albedo** to run the analysis. The tool detects 6 surface types and color-codes every zone on the map.
 
-![Surface Analysis Contour Map](screenshots/Albedo_mapper_screenshot3.jpg)
+![Surface Analysis Contour Map](screenshots/Albedo_mapper_screenshot2.jpg)
 
 ---
 
@@ -40,7 +40,7 @@ Click **Calculate Albedo** to run the analysis. The tool detects 6 surface types
 
 The tool generates a complete heat risk report with letter grade, policy recommendations, and a downloadable PNG.
 
-![Full Report and Recommendations](screenshots/Albedo_mapper_screenshot2.jpg)
+![Full Report and Recommendations](screenshots/Albedo_mapper_screenshot3.jpg)
 
 ---
 
