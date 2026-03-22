@@ -20,17 +20,31 @@
 
 ## 📸 Demo
 
-### 1. Search any Boston-area neighborhood
+### Step 1 — Search any Boston-area neighborhood
 
-Enter any address or neighborhood name. The interactive satellite map loads instantly using ArcGIS World Imagery.
+Enter any address or neighborhood name. The interactive satellite map loads instantly.
 
-![Search and Map View](screenshots/screenshot1.jpg)
+![Search and Map View](screenshots/Albedo_mapper_screenshot1.jpg)
 
 ---
 
-### 2. Surface Analysis — Original vs. Albedo Contour Map
+### Step 2 — Surface Analysis — Original vs. Albedo Contour Map
 
-Click **Calculate Albedo** to run the analysis. The tool detects 6 surface types and color-codes each zone:
+Click **Calculate Albedo** to run the analysis. The tool detects 6 surface types and color-codes every zone on the map.
+
+![Surface Analysis Contour Map](screenshots/Albedo_mapper_screenshot3.jpg)
+
+---
+
+### Step 3 — Full Report with Planning Recommendations
+
+The tool generates a complete heat risk report with letter grade, policy recommendations, and a downloadable PNG.
+
+![Full Report and Recommendations](screenshots/Albedo_mapper_screenshot2.jpg)
+
+---
+
+## 🎨 Surface Type Key
 
 | Color | Surface | Albedo | Heat Risk |
 |-------|---------|--------|-----------|
@@ -40,16 +54,6 @@ Click **Calculate Albedo** to run the analysis. The tool detects 6 surface types
 | 🩵 Cyan | Bright / White Roof | 0.65 | LOW |
 | 🟢 Green | Trees / Vegetation | 0.20 | BENEFICIAL |
 | 🔵 Blue | Water Body | 0.06 | COOLING |
-
-![Surface Analysis Contour Map](docs/screenshots/screenshot3.jpg)
-
----
-
-### 3. Full Report with Planning Recommendations
-
-The tool generates a complete heat risk report with a letter grade, specific recommendations, and policy suggestions for city planners.
-
-![Full Report and Recommendations](docs/screenshots/screenshot2.jpg)
 
 ---
 
@@ -64,9 +68,9 @@ surface_detector.py  →  detects 6 surface types via HSV color analysis
         ↓
 albedo_calculator.py →  calculates weighted albedo score + heat index
         ↓
-report_generator.py  →  generates contour map + full PDF report
+report_generator.py  →  generates contour map + full PNG report
         ↓
-Results displayed in browser + downloadable PNG report
+Results displayed in browser + downloadable report
 ```
 
 ### The Key Formulas
@@ -82,7 +86,7 @@ Results displayed in browser + downloadable PNG report
 
 ## 🏙️ Community Impact
 
-This tool was built to address a critical gap in urban climate data: **hyperlocal, street-level albedo measurements** that expensive satellites can't provide at neighborhood resolution.
+This tool was built to address a critical gap in urban climate data: **hyperlocal, street-level albedo measurements** that expensive satellites cannot provide at neighborhood resolution.
 
 ### Target communities in Greater Boston:
 
@@ -98,13 +102,6 @@ This tool was built to address a critical gap in urban climate data: **hyperloca
 
 ## 🚀 Run Locally
 
-### Prerequisites
-```bash
-Python 3.10+
-pip
-```
-
-### Setup
 ```bash
 # Clone the repository
 git clone https://github.com/danielge27/albedo-mapper.git
@@ -139,8 +136,10 @@ albedo-mapper/
 ├── static/
 │   └── images/             # Logo and static assets
 │
-└── docs/
-    └── screenshots/        # Demo screenshots for README
+└── screenshots/            # Demo screenshots
+    ├── Albedo_mapper_screenshot1.jpg
+    ├── Albedo_mapper_screenshot2.jpg
+    └── Albedo_mapper_screenshot3.jpg
 ```
 
 ---
@@ -199,6 +198,6 @@ Pull requests welcome! Areas where help is especially appreciated:
 
 **Built with 🛰️ by Team Cubeagle · Boston, MA**
 
-[Live App](https://albedo-mapper.onrender.com) · [Report an Issue](https://github.com/danielge27/albedo-mapper/issues) · [Team Cubeagle](https://github.com/danielge27)
+[Live App](https://albedo-mapper.onrender.com) · [Report an Issue](https://github.com/danielge27/albedo-mapper/issues) · [GitHub](https://github.com/danielge27/albedo-mapper)
 
 </div>
